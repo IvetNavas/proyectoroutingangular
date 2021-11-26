@@ -1,9 +1,11 @@
 import { Routes, RouterModule } from "@angular/router";
 import { ModuleWithProviders } from "@angular/core";
+
 import { HomeComponent } from "./components/home/home.component";
 import { FruteriaComponent } from "./components/fruteria/fruteria.component";
 import { Error404Component } from "./components/error404/error404.component";
 import { PanaderiaComponent } from "./components/panaderia/panaderia.component";
+
 const appRoutes: Routes = [
   //RUTA POR DEFECTO
   { path: "", component: HomeComponent },
